@@ -17,5 +17,5 @@ interface AccessCheckerInterface
      * @return bool whether the user has the specified permission.
      * @throws \InvalidArgumentException if any of argument is not of the expected type or does not refer to an existing value
      */
-    public function hasPermission($userId, string $permissionName, array $parameters = []): bool;
+    public function userHasPermission($userId, string $permissionName, array $parameters = []): bool;
 }
