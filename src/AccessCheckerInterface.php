@@ -2,7 +2,7 @@
 namespace Yiisoft\Access;
 
 /**
- * For more details and usage information on CheckAccessInterface, see
+ * For more details and usage information on AccessCheckerInterface, see
  * the [guide article on security authorization](guide:security-authorization).
  */
 interface AccessCheckerInterface
@@ -15,8 +15,7 @@ interface AccessCheckerInterface
      * @param array $parameters name-value pairs that will used to determine if access is granted.
      *
      * @return bool whether the user has the specified permission.
-     *@throws \InvalidArgumentException if $permissionName does not refer to an existing permission
-     *
+     * @throws \InvalidArgumentException if any of argument is not of the expected type or does not refer to an existing value
      */
     public function hasPermission($userId, string $permissionName, array $parameters = []): bool;
 }
