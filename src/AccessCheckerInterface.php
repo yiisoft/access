@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace Yiisoft\Access;
 
 /**
- * For more details and usage information on AccessCheckerInterface, see
- * the [guide article on security authorization](guide:security-authorization).
+ * The interface defines checking if  certain user has certain permission. Optional parameters could be passed
+ * for fine grained access checks.
  */
 interface AccessCheckerInterface
 {
     /**
-     * Checks if the user has the specified permission.
+     * Checks if the user with the ID given has the specified permission.
      *
      * @param mixed $userId the user ID representing the unique identifier of a user.
      * @param string $permissionName the name of the permission to be checked against.

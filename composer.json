@@ -4,7 +4,9 @@
     "description": "An interface for checking access",
     "keywords": [
         "yii",
-        "rbac"
+        "rbac",
+        "interface",
+        "access"
     ],
     "homepage": "http://www.yiiframework.com/",
     "license": "BSD-3-Clause",
@@ -18,11 +20,6 @@
     "autoload": {
         "psr-4": {
             "Yiisoft\\Access\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
         }
     },
     "config": {
