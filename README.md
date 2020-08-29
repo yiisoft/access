@@ -6,7 +6,7 @@
     <br>
 </p>
 
-This package provides an interface for checking  checking if certain user has certain permission. Optional parameters could be passed
+This package provides an interface for checking if certain user has certain permission. Optional parameters could be passed
 for fine-grained access checks.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/access/v/stable.png)](https://packagist.org/packages/yiisoft/access)
