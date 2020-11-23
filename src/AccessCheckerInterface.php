@@ -13,7 +13,7 @@ interface AccessCheckerInterface
     /**
      * Checks if the user with the ID given has the specified permission.
      *
-     * @param mixed $userId the user ID representing the unique identifier of a user.
+     * @param int|string $userId the user ID representing the unique identifier of a user.
      * @param string $permissionName the name of the permission to be checked against.
      * @param array $parameters name-value pairs that will used to determine if access is granted.
      *
