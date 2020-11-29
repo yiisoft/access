@@ -32,5 +32,11 @@
         "test": [
             "phpunit --colors --no-interaction"
         ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "roave/infection-static-analysis-plugin": "^1.5",
+        "spatie/phpunit-watcher": "^1.23",
+        "vimeo/psalm": "^4.2"
     }
 }
