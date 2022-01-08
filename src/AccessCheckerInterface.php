@@ -13,8 +13,7 @@ interface AccessCheckerInterface
     /**
      * Checks if the user with the ID given has the specified permission.
      *
-     * @param int|string|null $userId the user ID representing the unique identifier of a user.
-     * If ID is null, it means user is a guest.
+     * @param int|string|null $userId The user ID representing the unique identifier of a user. If ID is null, it means user is a guest.
      * @param string $permissionName the name of the permission to be checked against.
      * @param array $parameters name-value pairs that will used to determine if access is granted.
      *
