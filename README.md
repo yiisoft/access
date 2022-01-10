@@ -36,22 +36,26 @@ use Yiisoft\Access\AccessCheckerInterface;
 
 class UserService
 {
-  private AccessCheckerInterface $accessChecker;
-
-  public function __construct(AccessCheckerInterface $accessChecker)
-  {
-      $this->accessChecker = $accessChecker;
-  }
-
-  public function can(string $permissionName, array $parameters = []): bool
-  {
-      return $this->accessChecker->userHasPermission($this->getCurrentUser()->getId(), $permissionName, $parameters);
-  }
-
-  public function getCurrentUser(): User
-  {
-      // ...
-  }
+    private AccessCheckerInterface $accessChecker;
+    
+    public function __construct(AccessCheckerInterface $accessChecker)
+    {
+        $this->accessChecker = $accessChecker;
+    }
+    
+    public function can(string $permissionName, array $parameters = []): bool
+    {
+        return $this->accessChecker->userHasPermission(
+            $this->getCurrentUser()->getId(),
+            $permissionName,
+            $parameters
+        );
+    }
+    
+    public function getCurrentUser(): User
+    {
+        // ...
+    }
 }
 ```
  
@@ -60,11 +64,11 @@ In the handler it may look like the following:
 ```php
 public function actionList(UserService $userService)
 {
-  if (!$userService->can('list_posts')) {
-      // access denied
-  }
+    if (!$userService->can('list_posts')) {
+        // access denied
+    }
 
-  // list posts
+    // list posts
 }
 ```
 
