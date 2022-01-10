@@ -8,14 +8,28 @@
         "interface",
         "access"
     ],
-    "homepage": "http://www.yiiframework.com/",
+    "homepage": "https://www.yiiframework.com/",
     "license": "BSD-3-Clause",
     "support": {
-        "source": "https://github.com/yiisoft/access",
-        "issues": "https://github.com/yiisoft/access/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii"
+        "issues": "https://github.com/yiisoft/access/issues?state=open",
+        "forum": "https://www.yiiframework.com/forum/",
+        "wiki": "https://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "chat": "https://t.me/yii3en",
+        "source": "https://github.com/yiisoft/access"
+    },
+    "funding": [
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/yiisoft"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/yiisoft"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
     },
     "autoload": {
         "psr-4": {
@@ -24,8 +38,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "require": {
-        "php": "^7.4|^8.0"
     }
 }
