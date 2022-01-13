@@ -16,7 +16,7 @@
 [![type-coverage](https://shepherd.dev/github/yiisoft/access/coverage.svg)](https://shepherd.dev/github/yiisoft/access)
 
 This package provides an interface for checking if certain user has certain permission. Optional parameters could be passed
-for fine-grained access checks. Out of the box are available `DenyAll` and `AllowAll` implementations.
+for fine-grained access checks. Additionally, `DenyAll` and `AllowAll` implementations are available out of the box.
 
 ## Requirements
 
