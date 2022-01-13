@@ -26,7 +26,14 @@
 /.editorconfig          export-ignore
 /.gitattributes         export-ignore
 /.gitignore             export-ignore
+/.phpunit-watcher.yml   export-ignore
+/.scrutinizer.yml       export-ignore
 /.styleci.yml           export-ignore
+/infection.json.dist    export-ignore
+/phpunit.xml.dist       export-ignore
+/psalm.xml              export-ignore
+/tests                  export-ignore
+/docs                   export-ignore
 
 # Avoid merge conflicts in CHANGELOG
 # https://about.gitlab.com/2015/02/10/gitlab-reduced-merge-conflicts-by-90-percent-with-changelog-placeholders/

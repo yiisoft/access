@@ -8,9 +8,15 @@
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/access/v/stable.png)](https://packagist.org/packages/yiisoft/access)
 [![Total Downloads](https://poser.pugx.org/yiisoft/access/downloads.png)](https://packagist.org/packages/yiisoft/access)
+[![Build status](https://github.com/yiisoft/access/workflows/build/badge.svg)](https://github.com/yiisoft/access/actions?query=workflow%3Abuild)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiisoft/access/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiisoft/access/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/yiisoft/access/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yiisoft/access/?branch=master)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiisoft%2Faccess%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiisoft/access/master)
+[![static analysis](https://github.com/yiisoft/access/workflows/static%20analysis/badge.svg)](https://github.com/yiisoft/access/actions?query=workflow%3A%22static+analysis%22)
+[![type-coverage](https://shepherd.dev/github/yiisoft/access/coverage.svg)](https://shepherd.dev/github/yiisoft/access)
 
 This package provides an interface for checking if certain user has certain permission. Optional parameters could be passed
-for fine-grained access checks.
+for fine-grained access checks. Out of the box are available `DenyAll` and `AllowAll` implementations.
 
 ## Requirements
 
@@ -70,6 +76,33 @@ public function actionList(UserService $userService)
 
     // list posts
 }
+```
+
+## Testing
+
+### Unit testing
+
+The package is tested with [PHPUnit](https://phpunit.de/). To run tests:
+
+```shell
+./vendor/bin/phpunit
+```
+
+### Mutation testing
+
+The package tests are checked with [Infection](https://infection.github.io/) mutation framework with
+[Infection Static Analysis Plugin](https://github.com/Roave/infection-static-analysis-plugin). To run it:
+
+```shell
+./vendor/bin/roave-infection-static-analysis-plugin
+```
+
+### Static analysis
+
+The code is statically analyzed with [Psalm](https://psalm.dev/). To run static analysis:
+
+```shell
+./vendor/bin/psalm
 ```
 
 ## License
