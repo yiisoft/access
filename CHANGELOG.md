@@ -1,6 +1,6 @@
 # Yii Access
 
-## 1.1.0 under development
+## 1.1.0 January 14, 2022
 
 - New #15: Add `DenyAll` and `AllowAll` access checkers (vjik)
 
