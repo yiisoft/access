@@ -17,7 +17,7 @@ interface AccessCheckerInterface
      *
      * @param int|string|null $userId The user ID representing the unique identifier of a user. If ID is null,
      * it means user is a guest.
-     * @param string|\BackedEnum $permissionName The name of the permission to be checked against.
+     * @param \BackedEnum|string $permissionName The name of the permission to be checked against.
      * @param array $parameters Name-value pairs that will be used to determine if access is granted.
      *
      * @throws InvalidArgumentException If any of argument is not of the expected type or does not refer to
