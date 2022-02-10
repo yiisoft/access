@@ -9,7 +9,7 @@ namespace Yiisoft\Access;
  */
 final class AllowAll implements AccessCheckerInterface
 {
-    public function userHasPermission($userId, string $permissionName, array $parameters = []): bool
+    public function userHasPermission($userId, $permissionName, array $parameters = []): bool
     {
         return true;
     }

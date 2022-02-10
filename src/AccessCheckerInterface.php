@@ -17,7 +17,7 @@ interface AccessCheckerInterface
      *
      * @param int|string|null $userId The user ID representing the unique identifier of a user. If ID is null,
      * it means user is a guest.
-     * @param string $permissionName The name of the permission to be checked against.
+     * @param string|\BackedEnum $permissionName The name of the permission to be checked against.
      * @param array $parameters Name-value pairs that will be used to determine if access is granted.
      *
      * @throws InvalidArgumentException If any of argument is not of the expected type or does not refer to
@@ -25,5 +25,5 @@ interface AccessCheckerInterface
      *
      * @return bool Whether the user has the specified permission.
      */
-    public function userHasPermission($userId, string $permissionName, array $parameters = []): bool;
+    public function userHasPermission($userId, $permissionName, array $parameters = []): bool;
 }
