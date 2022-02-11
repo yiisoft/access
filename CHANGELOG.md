@@ -1,8 +1,9 @@
 # Yii Access
 
-## 1.1.1 under development
+## 1.2.0 under development
 
-- no changes in this release.
+- New #17: Add access checker interface wrapper `EnumAccessChecker` for check permission in the form of enumerations 
+  instance (vjik)
 
 ## 1.1.0 January 14, 2022
 

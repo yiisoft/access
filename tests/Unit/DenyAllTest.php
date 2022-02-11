@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yiisoft\Access\Tests;
+namespace Yiisoft\Access\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 use Yiisoft\Access\DenyAll;

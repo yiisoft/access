@@ -15,8 +15,12 @@
 [![static analysis](https://github.com/yiisoft/access/workflows/static%20analysis/badge.svg)](https://github.com/yiisoft/access/actions?query=workflow%3A%22static+analysis%22)
 [![type-coverage](https://shepherd.dev/github/yiisoft/access/coverage.svg)](https://shepherd.dev/github/yiisoft/access)
 
-This package provides an interface for checking if certain user has certain permission. Optional parameters could be passed
-for fine-grained access checks. Additionally, `DenyAll` and `AllowAll` implementations are available out of the box.
+This package provides interface `AccessCheckerInterface` for checking if certain user has certain permission. Optional
+parameters could be passed for fine-grained access checks.
+
+Additionally, are available out of the box:
+- `DenyAll` and `AllowAll` implementations.
+- the interface wrapper `EnumAccessChecker` for check permission in the form of enumerations instance (PHP >= 8.1).
 
 ## Requirements
 

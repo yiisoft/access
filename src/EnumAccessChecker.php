@@ -4,20 +4,27 @@ declare(strict_types=1);
 
 namespace Yiisoft\Access;
 
+use BackedEnum;
 use InvalidArgumentException;
 
 /**
- * The interface defines checking if certain user has certain permission. Optional parameters could be passed
- * for fine-grained access checks.
+ * Access checker interface wrapper for check permission in the form of enumerations instance.
  */
-interface AccessCheckerInterface
+final class EnumAccessChecker
 {
+    private AccessCheckerInterface $accessChecker;
+
+    public function __construct(AccessCheckerInterface $accessChecker)
+    {
+        $this->accessChecker = $accessChecker;
+    }
+
     /**
      * Checks if the user with the ID given has the specified permission.
      *
      * @param int|string|null $userId The user ID representing the unique identifier of a user. If ID is `null`,
      * it means user is a guest.
-     * @param string $permissionName The name of the permission to be checked against.
+     * @param BackedEnum $permission The permission enumeration instance to be checked against.
      * @param array $parameters Name-value pairs that will be used to determine if access is granted.
      *
      * @throws InvalidArgumentException If any of argument is not of the expected type or does not refer to
@@ -25,5 +32,8 @@ interface AccessCheckerInterface
      *
      * @return bool Whether the user has the specified permission.
      */
-    public function userHasPermission($userId, string $permissionName, array $parameters = []): bool;
+    public function userHasPermission(int|string|null $userId, BackedEnum $permission, array $parameters = []): bool
+    {
+        return $this->accessChecker->userHasPermission($userId, (string) $permission->value, $parameters);
+    }
 }
