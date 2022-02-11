@@ -12,7 +12,7 @@ final class EnumAccessCheckerTest extends TestCase
 {
     public function testBase(): void
     {
-        $accessChecker = new class() implements AccessCheckerInterface {
+        $accessChecker = new class () implements AccessCheckerInterface {
             private array $data = [];
 
             public function userHasPermission($userId, string $permissionName, array $parameters = []): bool
@@ -48,7 +48,7 @@ final class EnumAccessCheckerTest extends TestCase
         $this->assertSame(
             [
                 ['user-name', 'add_post', ['n' => 42]],
-                [null, '2', []]
+                [null, '2', []],
             ],
             $accessChecker->getData(),
         );
