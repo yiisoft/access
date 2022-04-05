@@ -1,6 +1,6 @@
 # Yii Access
 
-## 1.1.1 under development
+## 1.1.1 April 05, 2022
 
 - Bug #18: Add missing `\Stringable` to `$userId` of `AccessCheckerInterface::userHasPermission()` (samdark)
 
