@@ -2,7 +2,7 @@
 
 ## 1.1.1 under development
 
-- no changes in this release.
+- Bug #18: Add missing `\Stringable` to `$userId` of `AccessCheckerInterface::userHasPermission()` (samdark)
 
 ## 1.1.0 January 14, 2022
 
