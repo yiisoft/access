@@ -52,7 +52,9 @@ class UserService
     public function can(string $permissionName, array $parameters = []): bool
     {
         return $this->accessChecker->userHasPermission(
-            $this->getCurrentUser()->getId(),
+            $this
+                ->getCurrentUser()
+                ->getId(),
             $permissionName,
             $parameters
         );
