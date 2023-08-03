@@ -20,14 +20,14 @@ for fine-grained access checks. Additionally, `DenyAll` and `AllowAll` implement
 
 ## Requirements
 
-- PHP 7.4 or higher.
+- PHP 8.0 or higher.
 
 ## Installation
 
 The package could be installed with composer:
 
 ```shell
-composer require yiisoft/access --prefer-dist
+composer require yiisoft/access
 ```
 
 ## General usage
