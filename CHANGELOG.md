@@ -1,16 +1,17 @@
 # Yii Access
 
-## 1.1.2 under development
+## 2.0.0 under development
 
-- no changes in this release.
+- Chg #37: Raise minimum PHP version to 8.0, add type for `$userId` parameter of
+  `AccessCheckerInterface::userHasPermission()` method (@vjik)
 
 ## 1.1.1 April 05, 2022
 
-- Bug #18: Add missing `\Stringable` to `$userId` of `AccessCheckerInterface::userHasPermission()` (samdark)
+- Bug #18: Add missing `\Stringable` to `$userId` of `AccessCheckerInterface::userHasPermission()` (@samdark)
 
 ## 1.1.0 January 14, 2022
 
-- New #15: Add `DenyAll` and `AllowAll` access checkers (vjik)
+- New #15: Add `DenyAll` and `AllowAll` access checkers (@vjik)
 
 ## 1.0.0 August 24, 2020
 
