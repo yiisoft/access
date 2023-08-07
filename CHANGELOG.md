@@ -1,6 +1,6 @@
 # Yii Access
 
-## 2.0.0 under development
+## 2.0.0 August 07, 2023
 
 - Chg #37: Raise minimum PHP version to 8.0, add type for `$userId` parameter of
   `AccessCheckerInterface::userHasPermission()` method (@vjik)
