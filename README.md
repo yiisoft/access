@@ -31,13 +31,11 @@ composer require yiisoft/access
 ```
 
 ## General usage
- 
-An access checker [such as RBAC](https://github.com/yiisoft/rbac) implements the interface. A user identity may use it 
-then for checking access:
- 
-```php
-namespace App;
 
+An access checker [such as RBAC](https://github.com/yiisoft/rbac) implements the interface. A user identity may use it
+then for checking access:
+
+```php
 use Yiisoft\Access\AccessCheckerInterface;
 
 class UserService
@@ -66,9 +64,9 @@ class UserService
     }
 }
 ```
- 
+
 In the handler it may look like the following:
- 
+
 ```php
 public function actionList(UserService $userService)
 {
