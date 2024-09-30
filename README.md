@@ -6,9 +6,9 @@
     <br>
 </p>
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/access/v/stable.png)](https://packagist.org/packages/yiisoft/access)
-[![Total Downloads](https://poser.pugx.org/yiisoft/access/downloads.png)](https://packagist.org/packages/yiisoft/access)
-[![Build status](https://github.com/yiisoft/access/workflows/build/badge.svg)](https://github.com/yiisoft/access/actions?query=workflow%3Abuild)
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/access/v)](https://packagist.org/packages/yiisoft/access)
+[![Total Downloads](https://poser.pugx.org/yiisoft/access/downloads)](https://packagist.org/packages/yiisoft/access)
+[![Build status](https://github.com/yiisoft/access/actions/workflows/build.yml/badge.svg)](https://github.com/yiisoft/access/actions/workflows/build.yml)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiisoft/access/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiisoft/access/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/yiisoft/access/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yiisoft/access/?branch=master)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiisoft%2Faccess%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiisoft/access/master)
