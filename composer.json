@@ -32,6 +32,7 @@
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.66",
         "maglnet/composer-require-checker": "^4.4",
         "phpunit/phpunit": "^9.6.22",
         "rector/rector": "^2.0.8",
@@ -51,13 +52,13 @@
     },
     "config": {
         "sort-packages": true,
-        "bump-after-update": "dev",
         "allow-plugins": {
             "infection/extension-installer": true,
             "composer/package-versions-deprecated": true
         }
     },
     "scripts": {
+        "cs-fix": "php-cs-fixer fix",
         "test": "phpunit --testdox --no-interaction",
         "test-watch": "phpunit-watcher watch"
     }
