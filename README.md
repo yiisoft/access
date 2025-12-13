@@ -19,7 +19,7 @@ for fine-grained access checks. Additionally, `DenyAll` and `AllowAll` implement
 
 ## Requirements
 
-- PHP 8.0 or higher.
+- PHP 8.0 - 8.5.
 
 ## Installation
 

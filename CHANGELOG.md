@@ -2,7 +2,7 @@
 
 ## 2.0.1 under development
 
-- Chg #53: Change PHP constraint in composer.json to `~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0` (@vjik)
+- Chg #53, #57: Change PHP constraint in composer.json to `8.0 - 8.5` (@vjik)
 
 ## 2.0.0 August 07, 2023
 
