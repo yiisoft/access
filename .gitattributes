@@ -16,6 +16,7 @@
 *.yml  text
 
 # Ensure those won't be messed up with
+*.phar binary
 *.png  binary
 *.jpg  binary
 *.gif  binary
