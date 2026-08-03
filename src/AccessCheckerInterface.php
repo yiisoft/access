@@ -8,7 +8,7 @@ use InvalidArgumentException;
 use Stringable;
 
 /**
- * The inteqrface defines checking if certain user has certain permission. Optional parameters could be passed
+ * The interface defines checking if certain user has certain permission. Optional parameters could be passed
  * for fine-grained access checks.
  */
 interface AccessCheckerInterface
