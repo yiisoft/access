@@ -2,6 +2,7 @@
 
 ## 2.0.2 under development
 
+- Enh #74: Add PHP 8.6 support (@vjik)
 - Enh #59: Remove unnecessary files from Composer package (@mspirkov)
 
 ## 2.0.1 December 13, 2025
