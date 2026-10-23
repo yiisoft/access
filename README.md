@@ -11,8 +11,7 @@
 [![Build status](https://github.com/yiisoft/access/actions/workflows/build.yml/badge.svg)](https://github.com/yiisoft/access/actions/workflows/build.yml)
 [![Code Coverage](https://codecov.io/gh/yiisoft/access/branch/master/graph/badge.svg)](https://codecov.io/gh/yiisoft/access)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiisoft%2Faccess%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiisoft/access/master)
-[![static analysis](https://github.com/yiisoft/access/workflows/static%20analysis/badge.svg)](https://github.com/yiisoft/access/actions?query=workflow%3A%22static+analysis%22)
-[![type-coverage](https://shepherd.dev/github/yiisoft/access/coverage.svg)](https://shepherd.dev/github/yiisoft/access)
+[![Static analysis](https://github.com/yiisoft/access/actions/workflows/static.yml/badge.svg?branch=master)](https://github.com/yiisoft/access/actions/workflows/static.yml?query=branch%3Amaster)
 
 This package provides an interface for checking if certain user has certain permission. Optional parameters could be passed
 for fine-grained access checks. Additionally, `DenyAll` and `AllowAll` implementations are available out of the box.
