@@ -7,6 +7,7 @@ on:
       - 'tests/**'
       - 'phpunit.xml.dist'
       - 'infection.json.dist'
+      - 'tools/infection/composer.json'
       - 'composer.json'
       - '.github/workflows/mutation.yml'
   push:
@@ -22,7 +23,7 @@ concurrency:
 
 jobs:
   mutation:
-    uses: yiisoft/actions/.github/workflows/roave-infection.yml@master
+    uses: yiisoft/actions/.github/workflows/infection.yml@master
     with:
       os: >-
         ['ubuntu-latest']
