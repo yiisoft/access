@@ -33,7 +33,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.95",
-        "phpunit/phpunit": "^9.6.22",
+        "phpunit/phpunit": "^9.6.35",
         "rector/rector": "^2.0.8",
         "roave/infection-static-analysis-plugin": "^1.25",
         "shipmonk/composer-dependency-analyser": "^1.8",

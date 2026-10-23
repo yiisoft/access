@@ -10,7 +10,7 @@ use Yiisoft\Access\Tests\Support\StringableObject;
 
 final class AllowAllTest extends TestCase
 {
-    public function dataBase(): array
+    public static function dataBase(): array
     {
         return [
             [null],
