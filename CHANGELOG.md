@@ -1,5 +1,9 @@
 # Yii Access Change Log
 
+## 2.0.3 under development
+
+- no changes in this release.
+
 ## 2.0.2 October 31, 2026
 
 - Enh #59: Remove unnecessary files from Composer package (@mspirkov)
