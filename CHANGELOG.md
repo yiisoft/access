@@ -1,9 +1,9 @@
 # Yii Access Change Log
 
-## 2.0.2 under development
+## 2.0.2 October 31, 2026
 
-- Enh #74: Add PHP 8.6 support (@vjik)
 - Enh #59: Remove unnecessary files from Composer package (@mspirkov)
+- Enh #74: Add PHP 8.6 support (@vjik)
 - Enh #77: Add `array<string, mixed>` type for `$parameters` parameter of
   `AccessCheckerInterface::userHasPermission()` method in PHPDoc (@vjik)
 
